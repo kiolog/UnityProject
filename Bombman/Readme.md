@@ -5,7 +5,7 @@
 ### 1.遊戲畫面
 
 #### 遊戲畫面
-<img src="img/Picture1" width="500">
+<img src="img/Picture1.png" width="500">
 
 ### 2.架構:
 
