@@ -5,15 +5,15 @@
 ### 1.遊戲畫面
 
 #### 遊戲畫面
-<img src="img/Picture1.png" width="500">
+<img src="img/Picture1.png" width="300">
 
 ### 2.架構:
 
 * MVC架構:
-<img src="img/MVC.png" width="500">
+<img src="img/MVC.png" width="300">
 
 * 程式流程:
-<img src="img/Flow.png" width="500">
+<img src="img/Flow.png" width="300">
 
 ### 3.地圖系統:
 * 依Node為單位作為物件所在的依據，所有的物件都是在Node之間做移動。
