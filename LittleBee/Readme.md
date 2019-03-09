@@ -2,7 +2,7 @@
 ===================
 
 ### 1.遊戲畫面
-<img src="img/Picture2.png" width="200">
+<img src="img/Picture2.png" width="300">
 
 ### 2.架構:
 <img src="https://s26.postimg.org/66aoytueh/Little_Bee.png" width="500">
