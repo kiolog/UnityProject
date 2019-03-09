@@ -1,17 +1,17 @@
-�p�e��
+小蜜蜂
 ===================
 
-### 1.�C���e��
-<img src="img/Picture2.png" width="800">
+### 1.遊戲畫面
+<img src="img/Picture2.png" width="200">
 
-### 2.�[�c:
+### 2.架構:
 <img src="https://s26.postimg.org/66aoytueh/Little_Bee.png" width="500">
 
-### 3.�I������:
+### 3.碰撞偵測:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;�򥻤W�O�̮y�а��x�θI���A�p�G�����|�Y�I���C
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基本上是依座標做矩形碰撞，如果有重疊即碰撞。
 
-### 4.�]�p�Ҧ�:
+### 4.設計模式:
 
-* 1.`�����(ObjectPool)`:�򥻤W�ڳ����W�Ҧ����C�����󳣬O�P�@�Ӫ���Ҳ��͡A�u�O�̭����ѼƤ��P�A�ҥH���n�^���A�Q�ήɡA�u�ݭn���ܨ䤤���ȴN�i�H�C
-* 2.`�ɤ�(Flyweight Pattern)`:�ڧ�`Controller`(����)�B`Action`(�I���ҵo�ͪ��ƥ�)�AFunction�ơA���L�@�}�l�N���͹���A�Ӫ���u�ݭn��ۤv���@�ѼƱa�J�o���Model��Function���A�N�i�o��۹������ĪG�C
+* 1.`物件池(ObjectPool)`:基本上我場面上所有的遊戲物件都是同一個物件所產生，只是裡面的參數不同，所以當要回收再利用時，只需要改變其中的值就可以。
+* 2.`享元(Flyweight Pattern)`:我把`Controller`(控制)、`Action`(碰撞所發生的事件)，Function化，讓他一開始就產生實體，而物件只需要把自己當作參數帶入這兩個Model的Function內，就可得到相對應的效果。
