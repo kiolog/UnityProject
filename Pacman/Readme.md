@@ -4,12 +4,12 @@
 
 ### 1.遊戲畫面
 
-<img src="img/Picture1.png" width="500">
-<img src="img/Picture2.png" width="500">
+<img src="img/Picture1.png" width="300">
+<img src="img/Picture2.png" width="300">
 
 ### 2.架構:
 
-<img src="img/Pacman.png" width="500">
+<img src="img/Pacman.png" width="400">
 
 ### 3.地圖系統:
 * 依Node為單位作為物件所在的依據，所有的物件都是在Node之間做移動。
@@ -31,7 +31,7 @@
 * 我的相連最外圍點的演算法:
 1.牆壁資料為0,1的二維陣列，0即為有牆壁，1則無
 2.從二維陣列最上面的Row開始掃描，當掃描到0時，對該方向向量做順時針的偵測，找到下一個點後Push到List，並把該點改成其他值，然後做遞迴直到找不到點。
-<img src="img/Pacman2.png" width="500">
+<img src="img/Pacman2.png" width="200">
 詳細的演算法:
 
 
