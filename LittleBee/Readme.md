@@ -3,9 +3,10 @@
 
 ### 1.遊戲畫面
 <img src="img/Picture2.png" width="300">
+<img src="img/Picture3.png" width="300">
 
 ### 2.架構:
-<img src="https://s26.postimg.org/66aoytueh/Little_Bee.png" width="500">
+<img src="img/LittleBee.png" width="500">
 
 ### 3.碰撞偵測:
 
